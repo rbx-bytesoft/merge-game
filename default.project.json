@@ -1,5 +1,5 @@
 {
-	"name": "template-game-ts",
+	"name": "merge-game",
 	"globIgnorePaths": [
 		"**/package.json",
 		"**/tsconfig.json"
@@ -16,9 +16,6 @@
 			"$className": "ServerStorage",
 			"Assets": {
 				"$path": "assets/server"
-			},
-			"Config": {
-				"$path": "config/server"
 			}
 		},
 		"ReplicatedStorage": {
@@ -40,9 +37,6 @@
 			},
 			"Assets": {
 				"$path": "assets/shared"
-			},
-			"Config": {
-				"$path": "config/shared"
 			}
 		},
 		"StarterPlayer": {
@@ -70,6 +64,12 @@
 			"$className": "SoundService",
 			"$properties": {
 				"RespectFilteringEnabled": true
+			}
+		},
+		"Players": {
+			"$className": "Players",
+			"$properties": {
+				"CharacterAutoLoads": false
 			}
 		}
 	}

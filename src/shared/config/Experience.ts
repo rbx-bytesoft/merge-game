@@ -1,0 +1,30 @@
+// Table of Level Experience required to progress to next level.
+// Start Level: 1, End Level: 25
+
+export const LEVEL_EXPERIENCE: Record<number, number> = {
+	1: 200,
+	2: 250,
+	3: 300,
+	4: 350,
+	5: 400,
+	6: 500,
+	7: 600,
+	8: 700,
+	9: 800,
+	10: 900,
+	11: 1000,
+	12: 1050,
+	13: 1100,
+	14: 1150,
+	15: 1200,
+	16: 1250,
+	17: 1300,
+	18: 1500,
+	19: 1750,
+	20: 2000,
+	21: 2250,
+	22: 2500,
+	23: 2750,
+	24: 3000,
+	25: 3250,
+};
